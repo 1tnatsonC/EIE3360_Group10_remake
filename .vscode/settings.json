@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "EIE3360_Group10_v2.sln"
+    "dotnet.defaultSolution": "EIE3360_Group10_remake.sln"
 }
