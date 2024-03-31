@@ -30,7 +30,7 @@ public class EnemySpawner : MonoBehaviour
             if (spawnedEnemies.Count < maxEnemiesNumber)
             {
                 SpawnEnemy();
-				Debug.Log(spawnedEnemies.Count);
+				//Debug.Log(spawnedEnemies.Count);
             }
         }
         
