@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene_XR.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Main Scene (1st).unity
+    guid: 4706db8b5d9bea74a966bc3d5572d382
+  - enabled: 1
+    path: Assets/Scenes/2nd Scene.unity
+    guid: cc91932194074f747abedd542e18762a
+  - enabled: 1
+    path: Assets/Scenes/3rd Scene(Shooting).unity
+    guid: 7ddf8fa542c8630429e7bf5948852ba5
+  - enabled: 1
+    path: Assets/Scenes/Ending Scene.unity
+    guid: bf3c5da0c0d692a4990cfc0d41dd6fb7
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d3ca884453f725a44af45c00060c1b9d,
       type: 2}
