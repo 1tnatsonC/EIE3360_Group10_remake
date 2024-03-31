@@ -36,6 +36,9 @@ public class EnemyHealth : MonoBehaviour
     private int currentMaxShotsToTake;
 
     private static int defeatedEnemiesCount = 0;
+
+    [SerializeField] private AudioSource hurtAudioSource;
+    [SerializeField] private AudioSource deathAudioSource;
     
 
     private void Awake()
@@ -50,10 +53,23 @@ public class EnemyHealth : MonoBehaviour
     {
         currentHealth -= damageAmount;
         Instantiate(bloodSplatterFX, transform.position, Quaternion.identity);
+        hurtAudioSource.Play();	
+        
         if (currentHealth <= 0)
         {
+            //deathAudioSource.Play();
             OnEnemyDefeated(); // Call the Die method when health reaches zero or below
             
+        }
+    }
+
+    public void DestroyBloodSplatterFXWithTag()
+    {
+        GameObject[] bloodSplatters = GameObject.FindGameObjectsWithTag("BloodEffect");
+        
+        foreach (GameObject bloodSplatter in bloodSplatters)
+        {
+            Destroy(bloodSplatter);
         }
     }
 
@@ -61,10 +77,12 @@ public class EnemyHealth : MonoBehaviour
     {
         // Play the blood splatter effect on the enemy game object...
         Instantiate(bloodSplatterFX, transform.position, Quaternion.identity);
+        //deathAudioSource.Play();
         Destroy(gameObject); // Destroy the enemy game object
+        DestroyBloodSplatterFXWithTag();
 
         defeatedEnemiesCount++; // Increment the defeated enemies count
-        Debug.Log(defeatedEnemiesCount);
+        //Debug.Log(defeatedEnemiesCount);
 
         // Check if defeatedEnemiesCount reaches 7
         if (defeatedEnemiesCount >= 7)
@@ -124,6 +142,25 @@ public class EnemyHealth : MonoBehaviour
         currentMaxShotsToTake = UnityEngine.Random.Range(minShotsToTake, maxShotsToTake);
         currentShotsTaken = 0;
         animator.SetTrigger(SHOOT_TRIGGER);
+
+        // Reduce player's health (modify the damage value as needed)
+        //player.TakeDamage(damage);
+
+        float randomAccuracy = UnityEngine.Random.Range(0f, 100f);
+
+        // Check if the shot hits based on shooting accuracy
+        //if (randomAccuracy <= shootingAccuracy)
+        //{
+            // Reduce player's health (modify the damage value as needed)
+            //player.TakeDamage(damage);
+        //}
+        //else
+        //{
+            // Shot missed (you can add visual/audio feedback for misses if desired)
+           // Debug.Log("Shot missed!");
+       //}
+
+
     }
 
     private void RotateTowardsPlayer()

@@ -34,6 +34,7 @@ public class FireBulletOnActivate : MonoBehaviour
         if (bulletCollision != null)
         {
             bulletCollision.bulletDamage = 10; // Set the damage value
+            GetComponent<AudioSource>().Play();	
         }
 
         Destroy(spawnBullet, 5);
