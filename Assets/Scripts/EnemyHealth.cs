@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -34,6 +35,9 @@ public class EnemyHealth : MonoBehaviour
     private int currentShotsTaken;
     private int currentMaxShotsToTake;
 
+    private static int defeatedEnemiesCount = 0;
+    
+
     private void Awake()
     {
         currentHealth = maxHealth;
@@ -48,16 +52,29 @@ public class EnemyHealth : MonoBehaviour
         Instantiate(bloodSplatterFX, transform.position, Quaternion.identity);
         if (currentHealth <= 0)
         {
-            Die(); // Call the Die method when health reaches zero or below
+            OnEnemyDefeated(); // Call the Die method when health reaches zero or below
+            
         }
     }
 
-    private void Die()
+    public void OnEnemyDefeated()
     {
-        // Play the blood splatter effect on the enemy game object
+        // Play the blood splatter effect on the enemy game object...
         Instantiate(bloodSplatterFX, transform.position, Quaternion.identity);
         Destroy(gameObject); // Destroy the enemy game object
+
+        defeatedEnemiesCount++; // Increment the defeated enemies count
+        Debug.Log(defeatedEnemiesCount);
+
+        // Check if defeatedEnemiesCount reaches 7
+        if (defeatedEnemiesCount >= 7)
+        {
+            // Load the next scene (replace "NextSceneName" with your actual scene name)
+            SceneManager.LoadScene("Ending Scene");
+        }
     }
+
+
 
     public void Init(Player player, Transform coverSpot)
     {
