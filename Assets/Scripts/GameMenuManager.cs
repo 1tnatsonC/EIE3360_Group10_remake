@@ -14,18 +14,21 @@ public class GameMenuManager : MonoBehaviour
     {
         Vector3 offset = head.position - origin.position;
         origin.position = pos2.position - offset;
+        head.rotation = pos2.rotation;
         origin.rotation = pos2.rotation;
     }
     public void SelectBtn2()
     {
         Vector3 offset = head.position - origin.position;
         origin.position = pos3.position - offset;
+        head.rotation = pos3.rotation;
         origin.rotation = pos3.rotation;
     }
     public void BackBtn()
     {
         Vector3 offset = head.position - origin.position;
         origin.position = pos1.position - offset;
+        head.rotation = pos1.rotation;
         origin.rotation = pos1.rotation;
     }
     public void StartBtn1()
