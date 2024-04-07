@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5370147984140150364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9997088
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.024133697
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.321575
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 2.766
+      objectReference: {fileID: 0}
+    - target: {fileID: 14183392575068777, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762473234441075206, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene3_IntroUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022379079137650308, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_text
+      value: On the battlefield, British and German forces are engaged in fierce
+        combat. As a newly enlisted British soldier, you have unfortunately encountered
+        the outbreak of war and have been dispatched to the front lines to fight.
+        Now, start by understanding the current situation from your allies!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022379079137650308, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022379079137650308, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624136305397451946, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_text
+      value: Battle of XXX
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766185601941062121, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_text
+      value: -Dialogue Scene-
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882032017995877459, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas_2nd Scene Intro Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882032017995877459, guid: 11c661cc625c3fd4497b37b61a6d07d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11c661cc625c3fd4497b37b61a6d07d8, type: 3}
