@@ -5,12 +5,13 @@ using UnityEngine;
 public class AllyController : MonoBehaviour
 {
     public Transform player;
+    public Transform target;
 
     public float offset = 0f;
+    public Vector3 difference = Vector3.zero;
     public float speed = 2f;
 
     private Animator anim;
-
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,18 @@ public class AllyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float playerDistance = Vector3.Distance(transform.position, player.position);
+        float targetDistance = Vector3.Distance(transform.position + difference, target.position);
         transform.LookAt(player);
+
+        if (targetDistance > offset)
+        {
+            Vector3 direction = (target.position - transform.position).normalized;
+            anim.SetBool("moving", true);
+            transform.position += direction * speed * Time.deltaTime;
+        }
+        else
+        {
+            anim.SetBool("moving", false);
+        }
     }
 }
