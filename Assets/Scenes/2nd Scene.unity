@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6096,6 +6096,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas_2nd Scene Intro
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586492770073602575, guid: 18ced69ba0a13cc47be28862457bec2c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5383203001560316981, guid: 18ced69ba0a13cc47be28862457bec2c,
         type: 3}
