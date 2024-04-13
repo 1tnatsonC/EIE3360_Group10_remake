@@ -12,4 +12,11 @@ public class ReturnToMenu : MonoBehaviour
         SceneManager.LoadScene("Main Scene (1st)");
     
     }
+
+
+    public void LoadThridScene() {
+        
+        SceneManager.LoadScene("3rd Scene(Shooting)");
+    
+    }
 }
