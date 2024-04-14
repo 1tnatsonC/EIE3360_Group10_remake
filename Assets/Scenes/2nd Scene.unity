@@ -354,7 +354,7 @@ PrefabInstance:
     - target: {fileID: 692385875292750548, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -110.8
+      value: -96.3
       objectReference: {fileID: 0}
     - target: {fileID: 1055338816349162700, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -385,7 +385,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 291644719}
+      objectReference: {fileID: 1194794208}
     - target: {fileID: 1055338816349162700, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -485,7 +485,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1194794208}
+      objectReference: {fileID: 291644719}
     - target: {fileID: 2714249365636259902, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -543,8 +543,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3546648475749268135, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 511.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546648475749268135, guid: 4ee165dab91f7be499aba04c5c3f6d47,
+        type: 3}
       propertyPath: m_SizeDelta.y
-      value: 72.9
+      value: 32.2
       objectReference: {fileID: 0}
     - target: {fileID: 3546648475749268135, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -554,24 +559,27 @@ PrefabInstance:
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_text
-      value: Another question to test your knowledge of the pivotal innovations of
-        the Great War. Listen! What groundbreaking strategy, proved crucial in the
-        Battle of the Marne and marked a turning point in the war?
+      value: 'What is our primary tactic that we are using now? '
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_fontSize
-      value: 16
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4706400037683359121, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -110.8
+      value: -96.3
       objectReference: {fileID: 0}
     - target: {fileID: 5116283837972149090, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -720,6 +728,175 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 48629542}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &68135768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 68135769}
+  - component: {fileID: 68135772}
+  - component: {fileID: 68135771}
+  - component: {fileID: 68135770}
+  m_Layer: 5
+  m_Name: B_btn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &68135769
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68135768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 543930243}
+  m_Father: {fileID: 1880764709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 95.1, y: -106}
+  m_SizeDelta: {x: 95.8, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &68135770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68135768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 68135771}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 187089206}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1880764708}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 706600764}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 291644719}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &68135771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68135768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &68135772
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68135768}
+  m_CullTransparentMesh: 1
 --- !u!1 &71516175
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,15 +1138,16 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: Incorrect. While poison gas was indeed used during WWI and had a significant
-        psychological impact, it was not the revolutionary technology that broke
-        the stalemate. Gas attacks could be countered with gas masks and did not
-        provide the strategic breakthrough needed.
+      value: '"Exactly right," the sergeant nods approvingly. "The trenches serve
+        as our first line of defense against the devastating artillery barrages.
+        They also give us a concealed pathway to move troops and supplies, and a
+        vantage point to launch offensives. Without these trenches, we''d be sitting
+        ducks out in no-man''s land." (Humbert & Bailey, 2020)'
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_fontSize
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -979,7 +1157,7 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -1084,12 +1262,12 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 147.2
+      value: 172.8
       objectReference: {fileID: 0}
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.82
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -1397,6 +1575,313 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1882343231}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &187089205
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_text
+      value: Tank is indeed used by us but testing the effect of tanks is not our
+        major objective in the battle. Our allies are heavily engaged in the war
+        against the German in Verdun and the resources and manpower of them are nearly
+        used. We must distract the German army.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 733855128}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 706600764}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 2068290921}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 558.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 143.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 14.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -101
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas_2nd Scene_Q6_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.554
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040916819474827026, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene3_Q6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_text
+      value: Continue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01fd0e024f83d3d438fa175d88c41a53, type: 3}
+--- !u!1 &187089206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
+    type: 3}
+  m_PrefabInstance: {fileID: 187089205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &209684693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1618,7 +2103,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -55.7}
+  m_AnchoredPosition: {x: 0, y: -39.1}
   m_SizeDelta: {x: 527.6, y: 34.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &222955251
@@ -1641,8 +2126,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B. The use of coordinated infantry and artillery tactics, known as the
-    \u2018Creeping Barrage,\u2019 to effectively advance on enemy positions."
+  m_text: B. Extensive use of gas attack
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1669,8 +2153,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1843,7 +2327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A. General Douglas Haig
+  m_text: A. Tanks
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2555,7 +3039,7 @@ PrefabInstance:
     - target: {fileID: 692385875292750548, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -110.8
+      value: -100.1
       objectReference: {fileID: 0}
     - target: {fileID: 1055338816349162700, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -2586,7 +3070,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1194794208}
+      objectReference: {fileID: 291644719}
     - target: {fileID: 1055338816349162700, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -2686,7 +3170,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 291644719}
+      objectReference: {fileID: 1194794208}
     - target: {fileID: 2714249365636259902, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -2744,35 +3228,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3546648475749268135, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 504.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546648475749268135, guid: 4ee165dab91f7be499aba04c5c3f6d47,
+        type: 3}
       propertyPath: m_SizeDelta.y
-      value: 72.9
+      value: 48.4
       objectReference: {fileID: 0}
     - target: {fileID: 3546648475749268135, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 49.7
+      value: 53.7
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_text
-      value: 2 more! During the war, you had navigated the muddy trenches and encountered
-        a group of soldiers huddled around a map. soldier, do you know why we're
-        always digging and reinforcing these trenches?
+      value: Soldier, you need to figure it out! How can we solve the challenge of
+        communication?
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_fontSize
-      value: 16
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 16
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4706400037683359121, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -110.8
+      value: -100.1
       objectReference: {fileID: 0}
     - target: {fileID: 5116283837972149090, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -3076,6 +3569,142 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1530572045}
   m_SourcePrefab: {fileID: 100100000, guid: b0aeaa05da501c748a59b1a78deaabb8, type: 3}
+--- !u!1 &543930242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543930243}
+  - component: {fileID: 543930245}
+  - component: {fileID: 543930244}
+  m_Layer: 5
+  m_Name: btn_name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &543930243
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543930242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68135769}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &543930244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543930242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'B
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 22
+  m_fontSizeBase: 22
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &543930245
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543930242}
+  m_CullTransparentMesh: 1
 --- !u!1001 &543969382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3604,7 +4233,7 @@ PrefabInstance:
     - target: {fileID: 692385875292750548, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -110.8
+      value: -116.7
       objectReference: {fileID: 0}
     - target: {fileID: 1055338816349162700, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -3635,7 +4264,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 291644719}
+      objectReference: {fileID: 1194794208}
     - target: {fileID: 1055338816349162700, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -3735,7 +4364,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1194794208}
+      objectReference: {fileID: 291644719}
     - target: {fileID: 2714249365636259902, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -3804,14 +4433,19 @@ PrefabInstance:
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_text
-      value: Let me ask you a question about the use of a revolutionary military
-        technology that changed the course of the war. Listen up! What was this technology
-        and how did it impact the war efforts?
+      value: During the war, you had navigated the muddy trenches and encountered
+        a group of soldiers huddled around a map. Soldier, do you know why we're
+        always digging and reinforcing these trenches?
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_fontSize
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -3821,7 +4455,7 @@ PrefabInstance:
     - target: {fileID: 4706400037683359121, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -110.8
+      value: -116.7
       objectReference: {fileID: 0}
     - target: {fileID: 5116283837972149090, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -4012,7 +4646,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 291644719}
+      objectReference: {fileID: 1194794208}
     - target: {fileID: 1055338816349162700, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -4112,7 +4746,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1194794208}
+      objectReference: {fileID: 291644719}
     - target: {fileID: 2714249365636259902, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -4181,20 +4815,18 @@ PrefabInstance:
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_text
-      value: "Next question! now soldiers are debating the merits of a controversial
-        strategy that was employed during WWI. This strategy, known as \u201CBleed
-        them white\u201D, was advocated by which military leader, and what was its
-        intended purpose?"
+      value: Next question! What notable military technology was implemented now
+        (in WWI) ?
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_fontSize
-      value: 16
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 16
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 4706400037683359121, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -5005,10 +5637,11 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: That's a common misconception, but it's far from the truth. These trenches
-        are our lifeline. They shield us from the relentless shelling and provide
-        a tactical advantage over the enemy. Every shovel of earth could mean the
-        difference between life and death out here. Remember that, soldier!
+      value: Smart choice! Runners can immediately go through trenches and battlefields
+        with a large amount of information such as bring maps and documents while
+        signal lamps can use Morse code to communicate for short messages but in
+        long distance meanwhile pigeons can be used for long distance messaging as
+        well. NO worries, the success rate is surprisingly high.
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -5123,12 +5756,12 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 149
+      value: 169.2
       objectReference: {fileID: 0}
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.32
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -5272,10 +5905,10 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: Exactly right,The trenches serve as our first line of defense against
-        the devastating artillery barrages. They also give us a concealed pathway
-        to move troops and supplies, and a vantage point to launch offensives. Without
-        these trenches, we'd be sitting ducks out in no-man's land.
+      value: "No, it is a bad way. Telephone lines were vulnerable and unreliable
+        which were severed by gunfire easily, it also required physical connection
+        and operators of one\u2019s end linking to another. It is ineffective to
+        repair or replace the telephone lines frequently."
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -5390,17 +6023,17 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 149
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.4
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -112.53
+      value: -98.9
       objectReference: {fileID: 0}
     - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -5646,7 +6279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -55.7}
+  m_AnchoredPosition: {x: 0, y: -63.1}
   m_SizeDelta: {x: 527.6, y: 34.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &882065539
@@ -5669,7 +6302,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B. Tanks
+  m_text: B. To establish a network of escape tunnels which can be utilized for immediate
+    retreat in the event of an unexpected attack.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5995,7 +6629,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -11.4}
+  m_AnchoredPosition: {x: 0, y: -15.3}
   m_SizeDelta: {x: 527.6, y: 49.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1030785572
@@ -6018,7 +6652,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A. Poison Gas
+  m_text: A. To protect us from enemy artillery and provide a strategic position
+    for launching attacks
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6356,7 +6991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -55.7}
+  m_AnchoredPosition: {x: 0, y: -42.9}
   m_SizeDelta: {x: 527.6, y: 34.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1088508719
@@ -6379,8 +7014,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B. It's just busy work to keep us occupied and maintain discipline in the
-    ranks.
+  m_text: B. We can utilize runners, pigeons and signal lamps.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6529,10 +7163,10 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: "Incorrect. While General Douglas Haig did favor sustained offensives,
-        the term \u201CBleed them white\u201D is not attributed to him. Haig\u2019s
-        tactics were more focused on breaking through enemy lines rather than attrition
-        warfare"
+      value: Correct. Tanks were the only weapon developed and utilized exclusively
+        during the period from 1914 to 1918. A vehicle with protection is required
+        to protect the army from gunfire to cross trenches and the battlefield. It
+        can be used to crush the wire of enemies as well (Greenhalgh, 2000).
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -6657,7 +7291,7 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.64
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -6895,7 +7529,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a9a1f9661a40c394cbf9a888beb7ec4d, type: 3}
+      objectReference: {fileID: 8300000, guid: c3589c1113037294c9ff2710693b354b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7062,6 +7696,140 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44aa659a2015b484bb562dd86e9aab26, type: 3}
+--- !u!1 &1131531249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1131531250}
+  - component: {fileID: 1131531252}
+  - component: {fileID: 1131531251}
+  m_Layer: 5
+  m_Name: Description (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1131531250
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131531249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1880764709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -48.74}
+  m_SizeDelta: {x: 558.13, y: 37}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1131531251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131531249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: B. Testing the use of tanks to win the battle
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 18
+  m_fontSizeBase: 18
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1131531252
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131531249}
+  m_CullTransparentMesh: 1
 --- !u!1 &1151170836
 GameObject:
   m_ObjectHideFlags: 0
@@ -7706,11 +8474,10 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: "Correct! General Philippe P\xE9tain is associated with the phrase \u201CBleed
-        them white\u201D during the Battle of Verdun in 1916. His strategy aimed
-        to inflict such heavy losses on the German forces that they would be unable
-        to continue the fight, effectively bleeding the enemy forces white of their
-        manpower."
+      value: Incorrect! Fighter Jets were invented and widely used after World War
+        I, especially in World War II. The aircraft in WWI is heavy in weight and
+        made with woods and fabrics which carry weapons occasionally(Ananthasayanam
+        et al., 2005).
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -7825,12 +8592,12 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 147.2
+      value: 123.39
       objectReference: {fileID: 0}
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.42
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -8283,12 +9050,11 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: "Correct! Tanks were first used by the British during the Battle of
-        the Somme in 1916. Their introduction marked a significant shift in warfare,
-        as they could navigate the difficult terrain of no man\u2019s land, survive
-        extensive barrages, and support infantry advances. This innovation began
-        the era of armored warfare and played a crucial role in the Allies\u2019
-        eventual victory."
+      value: '"It is utterly wrong! The primary purpose of trenches was to promote
+        position maintenance and resilience, not to facilitate retreats. Establishing
+        escape tunnels is contradicting the strategic objective of maintaining lines
+        and positions for as long as possible. Remember that, soldier, we can only
+        win!"'
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -8413,7 +9179,7 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.9
+      value: 5.22
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -8670,8 +9436,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -39.5}
-  m_SizeDelta: {x: 527.6, y: 34.3}
+  m_AnchoredPosition: {x: 0, y: -71.3}
+  m_SizeDelta: {x: 527.6, y: 49.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1427989019
 MonoBehaviour:
@@ -8693,8 +9459,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B. A naval strategy involving the blockade of enemy ports and targeting
-    of maritime supply routes.
+  m_text: B. Maneuver Warfare strategy, a flexible tactic based on the movement and
+    vulnerabilities of the enemy. It attempts to weaken the enemies by small-unit
+    firing tactics. It aims at paralyzing the enemies instead of a total destruction.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8811,8 +9578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 12.06}
-  m_SizeDelta: {x: 527.6, y: 49.4}
+  m_AnchoredPosition: {x: 0, y: -15.9}
+  m_SizeDelta: {x: 527.6, y: 58.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1465883657
 MonoBehaviour:
@@ -8834,9 +9601,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A.  A form of land warfare using occupied fighting lines consisting largely
-    of trenches, in which troops are significantly protected from the enemy\u2019s
-    small arms fire and are substantially sheltered from artillery."
+  m_text: A. Trench warfare strategy. It is a warfare strategy which was used in
+    Europe from the Belgian Coast to the Border of Switzerland in which the opposing
+    forces attack, counterattack, and defend from permanent systems of trenches dug
+    close to each other
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9660,6 +10428,312 @@ Transform:
   - {fileID: 1728453547}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1535603818
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_text
+      value: Redirecting the German forces to Somme in order to alleviate pressure
+        on the French armies engaged in the war at Verdun. We aim at breaking German
+        defenses and win the war, which can significantly weaken the German
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 733855128}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 706600764}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 2068290921}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 558.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 134.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -93
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas_2nd Scene_Q6_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.554
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445510001338689405, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040916819474827026, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene3_Q6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_text
+      value: Continue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01fd0e024f83d3d438fa175d88c41a53, type: 3}
+--- !u!1 &1535603819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
+    type: 3}
+  m_PrefabInstance: {fileID: 1535603818}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1562035024 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 11ba01aef5c2e1647874a3576b0d1bf5,
@@ -9764,7 +10838,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B. General Philippe P\xE9tain"
+  m_text: B. Fighter Jets
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9956,7 +11030,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -11.4}
+  m_AnchoredPosition: {x: 0, y: 3.7}
   m_SizeDelta: {x: 527.6, y: 49.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1624093809
@@ -9979,8 +11053,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A. The implementation of trench warfare, which provided defensive advantage
-    and changed the nature of ground battles.
+  m_text: A. Extensive and prolonged bombardment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10074,10 +11147,9 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: "Correct! Precisely! The \u2018Creeping Barrage\u2019 was a synchronized
-        assault where artillery fire moved forward in stages just ahead of the infantry.
-        This allowed the soldiers to follow closely behind a curtain of explosions,
-        catching the enemy off guard and securing critical ground."
+      value: Incorrect! Chemical weapons are not our primary tactics soldiers! We
+        are fighting trench wars which are employing artillery bombardment, gas attacks
+        only act as supplementary tactics.
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -10192,17 +11264,17 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 145.52
+      value: 101.7
       objectReference: {fileID: 0}
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.5
+      value: 7.1
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -112.53
+      value: -98
       objectReference: {fileID: 0}
     - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -10683,9 +11755,10 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: Incorrect. Trench warfare was indeed a defining feature of the war,
-        but it was not the key to victory at the Marne. The battle was won through
-        mobility and the ability to outmaneuver the enemy, not by digging in.
+      value: Correct. The objective of a prolonged and intense bombardment is to
+        eliminate German fortifications, barbed wire, and trenches prior to the infantry
+        assault which can significantly reduce the manpower of the German army (Strachan,
+        1998)
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -10800,17 +11873,17 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 101.25
+      value: 120.03
       objectReference: {fileID: 0}
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.5
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -112.53
+      value: -104.89
       objectReference: {fileID: 0}
     - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -10978,7 +12051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -11.4}
+  m_AnchoredPosition: {x: 0, y: 1.7}
   m_SizeDelta: {x: 527.6, y: 49.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1824966981
@@ -11001,8 +12074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A. To protect us from enemy artillery and provide a strategic position
-    for launching attacks.
+  m_text: A. We can use more telephones to ensure immediate updates of the war situation.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11163,7 +12235,7 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: "Last one! Listen up, soldier! \nWill we win in this war?"
+      value: The last question, soldier! What is the objective of this battle?
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -11209,7 +12281,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 733855128}
+      objectReference: {fileID: 1535603819}
     - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -11219,7 +12291,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 2068290921}
+      objectReference: {fileID: 1194794208}
     - target: {fileID: 1916971796203154111, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
@@ -11288,17 +12360,27 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 6
+      value: 50.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 95.8
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 57.6
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -95.1
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -91
+      value: -106
       objectReference: {fileID: 0}
     - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -11415,10 +12497,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene3_Q6
       objectReference: {fileID: 0}
+    - target: {fileID: 6335671534668064276, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      propertyPath: m_Name
+      value: A_btn
+      objectReference: {fileID: 0}
     - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: Definitely a big win!
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 7330049948929772960, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -11442,12 +12529,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7037527986108459902, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 2024990203}
+    - targetCorrespondingSourceObject: {fileID: 7037527986108459902, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1131531250}
+    - targetCorrespondingSourceObject: {fileID: 7037527986108459902, guid: 01fd0e024f83d3d438fa175d88c41a53,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 68135769}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01fd0e024f83d3d438fa175d88c41a53, type: 3}
 --- !u!1 &1880764708 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
+    type: 3}
+  m_PrefabInstance: {fileID: 1880764707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1880764709 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7037527986108459902, guid: 01fd0e024f83d3d438fa175d88c41a53,
     type: 3}
   m_PrefabInstance: {fileID: 1880764707}
   m_PrefabAsset: {fileID: 0}
@@ -11804,6 +12909,140 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 112518750}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2024990202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2024990203}
+  - component: {fileID: 2024990205}
+  - component: {fileID: 2024990204}
+  m_Layer: 5
+  m_Name: Description (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2024990203
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024990202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1880764709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -8.6}
+  m_SizeDelta: {x: 558.13, y: 37}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2024990204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024990202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: A. Redirecting German forces to the Somme
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 18
+  m_fontSizeBase: 18
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2024990205
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024990202}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2028341564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12935,10 +14174,9 @@ PrefabInstance:
     - target: {fileID: 5426379248362790657, guid: bdcca7ae163cc4a4c84629d02cdd68d7,
         type: 3}
       propertyPath: m_text
-      value: "Nah, recruit, that\u2019s not it. Trench warfare has nothing to do
-        with naval blockades. It\u2019s all about those long, dug-out trenches on
-        land where soldiers lived, fought, and too often died. It defined the static,
-        grinding nature of the war on land, not at sea."
+      value: "Incorrect. The sergeant shakes his head. \u201CNo, recruit, that\u2019s
+        not it. We are not using Maneuver Warfare strategy now, it was widely used
+        in the airland battle as well as naval war."
       objectReference: {fileID: 0}
     - target: {fileID: 5426379248362790657, guid: bdcca7ae163cc4a4c84629d02cdd68d7,
         type: 3}
@@ -12968,12 +14206,12 @@ PrefabInstance:
     - target: {fileID: 5651528620190337564, guid: bdcca7ae163cc4a4c84629d02cdd68d7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 148.3
+      value: 115.67
       objectReference: {fileID: 0}
     - target: {fileID: 5651528620190337564, guid: bdcca7ae163cc4a4c84629d02cdd68d7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.23
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 7178394758363166166, guid: bdcca7ae163cc4a4c84629d02cdd68d7,
         type: 3}
@@ -13069,10 +14307,11 @@ PrefabInstance:
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_text
-      value: Correct! Well done, soldier, Trench warfare is indeed characterized
-        by the use of defensive positions dug into the ground. It was adominant strategy
-        during WWI, where it provided protection against the firepower of modern
-        weaponry and led to a grueling stalemate on the Western Front.
+      value: " Correct! \u201CWell done, soldier,\u201D the sergeant approves. \u201CTrenches
+        enable troops to approach fortifications with minimal casualties despite
+        artillery bombardment. Typically, these trenches were constructed around
+        the perimeter of a defense in parallel or concentric patterns; they were
+        frequently linked by zigzag trench designs to facilitate movement and protection.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -13202,12 +14441,12 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 147.2
+      value: 165.8
       objectReference: {fileID: 0}
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.92
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -13342,6 +14581,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 692385875292750548, guid: 4ee165dab91f7be499aba04c5c3f6d47,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -121.9
+      objectReference: {fileID: 0}
     - target: {fileID: 1055338816349162700, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -13535,7 +14779,12 @@ PrefabInstance:
     - target: {fileID: 3753791539141554106, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
       propertyPath: m_text
-      value: Listen up, soldier! What is Trench Warfare?
+      value: Listen up, soldier! What major warfare strategy are we using now?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706400037683359121, guid: 4ee165dab91f7be499aba04c5c3f6d47,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -121.9
       objectReference: {fileID: 0}
     - target: {fileID: 5116283837972149090, guid: 4ee165dab91f7be499aba04c5c3f6d47,
         type: 3}
@@ -14080,6 +15329,8 @@ SceneRoots:
   - {fileID: 867344134}
   - {fileID: 821160958}
   - {fileID: 1880764707}
+  - {fileID: 1535603818}
+  - {fileID: 187089205}
   - {fileID: 733855127}
   - {fileID: 2564662322186286243}
   - {fileID: 1195521398}
