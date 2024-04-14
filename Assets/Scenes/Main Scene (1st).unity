@@ -493,6 +493,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plane_ForTP
       objectReference: {fileID: 0}
+    - target: {fileID: 5460055557734503457, guid: adeed4d3aed2f4941a7f4b954d8524e4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6156090748863051592, guid: adeed4d3aed2f4941a7f4b954d8524e4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7368559237896030153, guid: adeed4d3aed2f4941a7f4b954d8524e4,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -984,10 +994,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 162753387458031107, guid: 7a8aee49506084c4d900d10d7acc8685,
+        type: 3}
+      propertyPath: rightTeleportation
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1299927477614129086, guid: 7a8aee49506084c4d900d10d7acc8685,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1962434136854618151, guid: 7a8aee49506084c4d900d10d7acc8685,
         type: 3}
@@ -1027,7 +1042,7 @@ PrefabInstance:
     - target: {fileID: 9005535859601593749, guid: 7a8aee49506084c4d900d10d7acc8685,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.96
+      value: -0.69
       objectReference: {fileID: 0}
     - target: {fileID: 9005535859601593749, guid: 7a8aee49506084c4d900d10d7acc8685,
         type: 3}
