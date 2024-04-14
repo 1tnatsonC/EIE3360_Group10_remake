@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'HOW THE WAR ENDED
+  m_Text: 'HOW THE BATTLE OF SOMME ENDED
 
 
 '
@@ -205,74 +205,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34829100}
   m_CullTransparentMesh: 1
---- !u!1001 &64538377
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1162399327492904990, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_Name
-      value: HMD Info Manager
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 393.79944
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 37.25953
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 9.552486
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5942758370634149366, guid: a6785583db2317849a81b80352d222d0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a6785583db2317849a81b80352d222d0, type: 3}
 --- !u!1 &160706236
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &213896557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1995,6 +1927,7 @@ RectTransform:
   - {fileID: 1624802602}
   - {fileID: 1971340132}
   - {fileID: 1644805640}
+  - {fileID: 1997946170}
   - {fileID: 1113508212}
   - {fileID: 498030895}
   m_Father: {fileID: 213896560}
@@ -2633,8 +2566,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -143.8}
-  m_SizeDelta: {x: 69, y: 35}
+  m_AnchoredPosition: {x: 0, y: -173.62901}
+  m_SizeDelta: {x: 69, y: 64.858}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1113508213
 MonoBehaviour:
@@ -2663,13 +2596,15 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Foley, R. T. (2011). Learning War\u2019s Lessons: he German Army and the
+  m_Text: "Roy, R. H., & Foot, R. (2006, December 21). Canada and the battle of the
+    Somme. The Canadian Encyclopedia. https://www.thecanadianencyclopedia.ca/en/article/battle-of-the-somme#:~:text=The%20offensive%20was%20one%20of%20the%20bloodiest%20in,men%20were%20killed%20or%20wounded%20at%20the%20Somme.
+    \n\nFoley, R. T. (2011). Learning War\u2019s Lessons: he German Army and the
     Battle of the Somme 19161.\n"
 --- !u!222 &1113508214
 CanvasRenderer:
@@ -2927,7 +2862,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233375776}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2936,7 +2871,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 136}
-  m_SizeDelta: {x: 400, y: 30}
+  m_SizeDelta: {x: 69.3282, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1233375778
 MonoBehaviour:
@@ -2960,7 +2895,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 14
+    m_FontSize: 4
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 0
@@ -2980,74 +2915,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233375776}
   m_CullTransparentMesh: 1
---- !u!1001 &1345665800
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 278493426008993126, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_Name
-      value: XR Device Simulator Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278493426008993128, guid: 02a506cab8205254f9bc87775f754a20,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 02a506cab8205254f9bc87775f754a20, type: 3}
 --- !u!1 &1361874561
 GameObject:
   m_ObjectHideFlags: 0
@@ -3848,7 +3715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -93.5}
+  m_AnchoredPosition: {x: 0, y: -83.5}
   m_SizeDelta: {x: 69, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644805641
@@ -4355,7 +4222,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -55}
+  m_AnchoredPosition: {x: 0, y: -37.8}
   m_SizeDelta: {x: 69, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1971340133
@@ -4391,8 +4258,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'There were around 1.2 million totals deaths from this war, including about
-    420,000 from the British Empire, 194,000 from the French, and 440,000 Germans.
+  m_Text: 'There were around 1.2 million totals deaths from this war, where the Allies
+    had around 623,000 casualties while the German had around 660,000 casualties.
 
 
 '
@@ -4486,6 +4353,87 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979690411}
+  m_CullTransparentMesh: 1
+--- !u!1 &1997946169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997946170}
+  - component: {fileID: 1997946172}
+  - component: {fileID: 1997946171}
+  m_Layer: 5
+  m_Name: information (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1997946170
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997946169}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 642146187}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -145.9}
+  m_SizeDelta: {x: 69, y: 35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1997946171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997946169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    m_FontSize: 4
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'References
+
+'
+--- !u!222 &1997946172
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997946169}
   m_CullTransparentMesh: 1
 --- !u!1001 &2053487374
 PrefabInstance:
@@ -4909,5 +4857,3 @@ SceneRoots:
   - {fileID: 2053487374}
   - {fileID: 594970204}
   - {fileID: 1011980706}
-  - {fileID: 64538377}
-  - {fileID: 1345665800}
