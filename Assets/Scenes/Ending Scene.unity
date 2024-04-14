@@ -149,7 +149,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34829100}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 136}
-  m_SizeDelta: {x: 400, y: 30}
+  m_AnchoredPosition: {x: -0, y: 136}
+  m_SizeDelta: {x: 76.7078, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &34829102
 MonoBehaviour:
@@ -258,7 +258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &213896557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1076,7 +1076,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.1, y: -2.1}
+  m_AnchoredPosition: {x: 0, y: -2.1}
   m_SizeDelta: {x: 50, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318697717
@@ -1161,7 +1161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.1, y: 35.3}
+  m_AnchoredPosition: {x: 0, y: 35.3}
   m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498030896
@@ -1393,7 +1393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -19.41552}
+  m_AnchoredPosition: {x: 0, y: 5}
   m_SizeDelta: {x: 69, y: 52.831}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586498319
@@ -1432,8 +1432,8 @@ MonoBehaviour:
   m_Text: Germany's weapon supply has also increased, but slower than the rate of
     the British, and that made a difference in WWI. However, when the British economy
     grew, the German economy shrank. Hunger and different shortages would start to
-    occur once the Germans would try to support the war (Harrison, 2016), such that
-    the Germans would further suffer in WWI, leading to their eventual loss.
+    occur once the Germans would try to support the war, such that the Germans would
+    further suffer in WWI, leading to their eventual loss.
 --- !u!222 &586498320
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2324,7 +2324,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.1, y: 46.3}
+  m_AnchoredPosition: {x: 0, y: 61.2}
   m_SizeDelta: {x: 69.2258, y: 26.5063}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1047617139
@@ -2363,7 +2363,7 @@ MonoBehaviour:
   m_Text: In addition, after the Battle of Somme, the British produced guns and rifles
     two to three times more than the times before the Battle of Somme, five times
     more shells, six times more explosives, as well as nine times more aircrafts,
-    34 times more tanks (Harrison , 2016).
+    34 times more tanks.
 --- !u!222 &1047617140
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2486,7 +2486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 92.839294}
+  m_AnchoredPosition: {x: 0, y: 105}
   m_SizeDelta: {x: 70, y: 24.9214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098260012
@@ -2523,7 +2523,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'In the battle of Somme, the British introduced tanks, which forever altered
-    how wars are fought (Battle of the somme: Casualties &amp; who won, 2009). '
+    how wars are fought. '
 --- !u!222 &1098260013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2566,8 +2566,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -173.62901}
-  m_SizeDelta: {x: 69, y: 64.858}
+  m_AnchoredPosition: {x: 0, y: -246.1739}
+  m_SizeDelta: {x: 69, y: 209.9477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1113508213
 MonoBehaviour:
@@ -2602,10 +2602,21 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Roy, R. H., & Foot, R. (2006, December 21). Canada and the battle of the
-    Somme. The Canadian Encyclopedia. https://www.thecanadianencyclopedia.ca/en/article/battle-of-the-somme#:~:text=The%20offensive%20was%20one%20of%20the%20bloodiest%20in,men%20were%20killed%20or%20wounded%20at%20the%20Somme.
-    \n\nFoley, R. T. (2011). Learning War\u2019s Lessons: he German Army and the
-    Battle of the Somme 19161.\n"
+  m_Text: "Ananthasayanam, M., Ibrahim, K., & Muralidharan, M. (2005, January). Historical
+    Evolution of the Military Fighter Airplanes Around the Twentieth Century. In
+    43rd AIAA Aerospace Sciences Meeting and Exhibit (p. 326)\r\n\r\nAshworth, A.
+    E. (1968). The sociology of trench warfare 1914-18. The British Journal of Sociology,
+    19(4), 407-423.\r\n\r\nEvans, N. (2016). The British Army and Communications,
+    1899-1914. Journal of the Society for Army Historical Research, 94(379), 208-224.\r\n\nFoley,
+    R. T. (2011). Learning War\u2019s Lessons: he German Army and the Battle of the
+    Somme 19161.\n\nGreenhalgh, E. (1996). A study in alliance warfare: the Battle
+    of the Somme, 1916 (Doctoral dissertation, UNSW Sydney).\r\n\r\nGreenhalgh, E.
+    (2000). Technology development in coalition: the case of the first world war
+    tank. The International History Review, 22(4), 806-836.\r\n\r\nHarris, J. (2022).
+    The Somme: Death of a generation. Canelo+ ORM.\r\n\nRoy, R. H., & Foot, R. (2006,
+    December 21). Canada and the battle of the Somme. The Canadian Encyclopedia.
+    https://www.thecanadianencyclopedia.ca/en/article/battle-of-the-somme#:~:text=The%20offensive%20was%20one%20of%20the%20bloodiest%20in,men%20were%20killed%20or%20wounded%20at%20the%20Somme.
+    \n\n\n"
 --- !u!222 &1113508214
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2791,7 +2802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -84.3}
+  m_AnchoredPosition: {x: 0, y: -68}
   m_SizeDelta: {x: 69, y: 16.597}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1147501278
@@ -3017,8 +3028,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -137}
-  m_SizeDelta: {x: 69, y: 84.2644}
+  m_AnchoredPosition: {x: 0, y: -179.8}
+  m_SizeDelta: {x: 69, y: 199.8739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432539585
 MonoBehaviour:
@@ -3043,7 +3054,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 4
-    m_FontStyle: 3
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -3053,11 +3064,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Harrison , M. (2016, June 29). Why the battle of the Somme marks a turning
-    point of World War I. The Conversation. https://theconversation.com/why-the-battle-of-the-somme-marks-a-turning-point-of-world-war-i-60741#:~:text=The%20Somme%20offensive%20divides%20the%20war%20into%20two,types%20of%20weaponry%2C%20the%20figures%20are%20also%20striking.\n\nA&E
-    Television Networks. (2009, November 12). Battle of the somme: Casualties & who
-    won. History.com. https://www.history.com/topics/world-war-i/battle-of-the-somme 
-    \n"
+  m_Text: "A&E Television Networks. (2009, November 12). Battle of the somme: Casualties
+    & who won. History.com. https://www.history.com/topics/world-war-i/battle-of-the-somme 
+    \n\nHarrison , M. (2016, June 29). Why the battle of the Somme marks a turning
+    point of World War I. The Conversation. https://theconversation.com/why-the-battle-of-the-somme-marks-a-turning-point-of-world-war-i-60741#:~:text=The%20Somme%20offensive%20divides%20the%20war%20into%20two,types%20of%20weaponry%2C%20the%20figures%20are%20also%20striking.\nHumbert,
+    B., & Bailey, J. (2020). Trench Warfare in World War 1. Science, Technology,
+    & Society: A Student-Led Exploration.\r\n\r\nLeonhard, R. (2009). The art of
+    maneuver: Maneuver warfare theory and Airland battle. Presidio press.\r\n\r\nMagnini,
+    L., Rovera, G., De Guio, A., & Azzalin, G. (2022). A Digital and Archaeological
+    Perspective of the World War One Veneto-Trentino Front Line Trench Systems in
+    Northern Italy. In Military Geoscience: A Multifaceted Approach to the Study
+    of Warfare (pp. 83-106). Cham: Springer International Publishing.\r\n\r\nStrachan,
+    H. (1998). The battle of the Somme and British strategy. The Journal of Strategic
+    Studies, 21(1), 79-95\r\n\r\nSingh, B. World War I: Its Causes and Effects\r\n\n"
 --- !u!222 &1432539586
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3633,7 +3652,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.1, y: 15.2}
+  m_AnchoredPosition: {x: 0, y: 15.2}
   m_SizeDelta: {x: 25, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1624802603
