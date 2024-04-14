@@ -1142,7 +1142,7 @@ PrefabInstance:
         as our first line of defense against the devastating artillery barrages.
         They also give us a concealed pathway to move troops and supplies, and a
         vantage point to launch offensives. Without these trenches, we''d be sitting
-        ducks out in no-man''s land." (Humbert & Bailey, 2020)'
+        ducks out in no-man''s land."'
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -7166,7 +7166,7 @@ PrefabInstance:
       value: Correct. Tanks were the only weapon developed and utilized exclusively
         during the period from 1914 to 1918. A vehicle with protection is required
         to protect the army from gunfire to cross trenches and the battlefield. It
-        can be used to crush the wire of enemies as well (Greenhalgh, 2000).
+        can be used to crush the wire of enemies as well.
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -8476,8 +8476,7 @@ PrefabInstance:
       propertyPath: m_text
       value: Incorrect! Fighter Jets were invented and widely used after World War
         I, especially in World War II. The aircraft in WWI is heavy in weight and
-        made with woods and fabrics which carry weapons occasionally(Ananthasayanam
-        et al., 2005).
+        made with woods and fabrics which carry weapons occasionally.
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -8592,7 +8591,7 @@ PrefabInstance:
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 123.39
+      value: 104.1
       objectReference: {fileID: 0}
     - target: {fileID: 2095264957857517197, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -8602,7 +8601,7 @@ PrefabInstance:
     - target: {fileID: 3002356234500535755, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -112.53
+      value: -98.5
       objectReference: {fileID: 0}
     - target: {fileID: 3522770150045446471, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -11757,8 +11756,7 @@ PrefabInstance:
       propertyPath: m_text
       value: Correct. The objective of a prolonged and intense bombardment is to
         eliminate German fortifications, barbed wire, and trenches prior to the infantry
-        assault which can significantly reduce the manpower of the German army (Strachan,
-        1998)
+        assault which can significantly reduce the manpower of the German army.
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
