@@ -2242,10 +2242,39 @@ PrefabInstance:
     - target: {fileID: 1348460133803979633, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
       propertyPath: m_text
-      value: 'This is the desciption for Battle Wars
-
-        This is the second
-        sentence.'
+      value: 'The warfare resources of France have reached critical levels due to
+        the losses in the previous war which made Britain supplying more manpower
+        and resource. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348460133803979633, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348460133803979633, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348460133803979633, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699736278342854252, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 629.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699736278342854252, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 182.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699736278342854252, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.9
       objectReference: {fileID: 0}
     - target: {fileID: 1930021525653346655, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
@@ -2477,6 +2506,34 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 22
       objectReference: {fileID: 0}
+    - target: {fileID: 6186761102337045267, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: 'Welcome to "WWI IMMERSION", you are now in Somme in 1916. As a British
+        soldier in World War 1, you will be exposed to the challenges and warfare
+        tactics of trench warfare. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186761102337045267, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186761102337045267, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186761102337045267, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777398344847058593, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bf7ea137aac722a4db380b705de3ec87,
+        type: 3}
     - target: {fileID: 7472387554865252691, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2547,6 +2604,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8069358300984681059, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 940.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069358300984681059, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 173.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069358300984681059, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 14.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8251144893067972149, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2581,14 +2653,38 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563086168270855065, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -131.2
       objectReference: {fileID: 0}
     - target: {fileID: 8953273669665866862, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
       propertyPath: m_text
-      value: 'This is the desciption for Battle of Somme.
-
-        This is the second
-        sentence.'
+      value: The war of Somme is fought by Britain and France against the German
+        Empire, one of the bloodiest battles in WW1. The war broke out on 1st July,
+        1916, British and French forces launched an attack towards the German army.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953273669665866862, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953273669665866862, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953273669665866862, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129919483284253609, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -187.42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
