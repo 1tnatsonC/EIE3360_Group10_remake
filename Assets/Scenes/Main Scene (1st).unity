@@ -2234,10 +2234,63 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 345217978055201616, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: Battle of Somme - 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348460133803979633, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: 'This is the desciption for Battle Wars
+
+        This is the second
+        sentence.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930021525653346655, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: Battle of Somme -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072036750623527964, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: Minigame Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072036750623527964, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072036750623527964, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 4208096574571370918, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221387211210355028, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: Dialogue Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427404869669062374, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: Battle of Somme - 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427404869669062374, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427404869669062374, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4690247489422528412, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
@@ -2339,6 +2392,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4705535811531401633, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 232.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5402640775390783823, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
       propertyPath: head
@@ -2404,6 +2462,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5967171827126500215, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: Battle of Somme - 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967171827126500215, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967171827126500215, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 7472387554865252691, guid: c0f020dfd3fbb984481fa0451dac9a54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2508,6 +2581,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953273669665866862, guid: c0f020dfd3fbb984481fa0451dac9a54,
+        type: 3}
+      propertyPath: m_text
+      value: 'This is the desciption for Battle of Somme.
+
+        This is the second
+        sentence.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

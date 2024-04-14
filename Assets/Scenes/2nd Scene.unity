@@ -2354,8 +2354,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6653,7 +6653,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: A. To protect us from enemy artillery and provide a strategic position
-    for launching attacks
+    for launching attacks.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7780,8 +7780,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 19
+  m_fontSizeBase: 19
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9604,7 +9604,7 @@ MonoBehaviour:
   m_text: A. Trench warfare strategy. It is a warfare strategy which was used in
     Europe from the Belgian Coast to the Border of Switzerland in which the opposing
     forces attack, counterattack, and defend from permanent systems of trenches dug
-    close to each other
+    close to each other.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10441,7 +10441,7 @@ PrefabInstance:
       propertyPath: m_text
       value: Redirecting the German forces to Somme in order to alleviate pressure
         on the French armies engaged in the war at Verdun. We aim at breaking German
-        defenses and win the war, which can significantly weaken the German
+        defenses and win the war, which can significantly weaken the German.
       objectReference: {fileID: 0}
     - target: {fileID: 1744014676237933456, guid: 01fd0e024f83d3d438fa175d88c41a53,
         type: 3}
@@ -10815,7 +10815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -55.7}
+  m_AnchoredPosition: {x: 0, y: -59.47}
   m_SizeDelta: {x: 527.6, y: 34.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1599727573
@@ -10865,8 +10865,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11080,8 +11080,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13803,6 +13803,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1255151879739927286, guid: 18ced69ba0a13cc47be28862457bec2c,
+        type: 3}
+      propertyPath: m_text
+      value: Battle of Somme - 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2569343673049293742, guid: 18ced69ba0a13cc47be28862457bec2c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
